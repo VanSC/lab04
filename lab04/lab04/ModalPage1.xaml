@@ -4,9 +4,10 @@
              x:Class="lab04.ModalPage1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Primer formulario"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Close Popup" x:Name="btnClose"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

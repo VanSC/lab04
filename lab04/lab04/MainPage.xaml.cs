@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lab04;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -24,7 +25,7 @@ namespace lab04
             };
             Item3.Clicked += async (sender, e) =>
             {
-                await Navigation.PushAsync(new CarouselPage());
+                await Navigation.PushAsync(new CarouselPage1());
             };
             Item5.Clicked += async (sender, e) =>
             {

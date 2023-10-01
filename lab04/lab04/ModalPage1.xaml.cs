@@ -15,6 +15,10 @@ namespace lab04
         public ModalPage1()
         {
             InitializeComponent();
+            btnClose.Clicked += async (sender, e) =>
+            {
+                await Navigation.PopModalAsync();
+            };
         }
     }
 }
